@@ -9,4 +9,10 @@ app.get("/",(req,res)=>{
     })
 })
 
+app.get("/:id",(req,res)=>{
+    res.json({
+        message:"hello world"
+    })
+})
+
 app.listen(3000)
